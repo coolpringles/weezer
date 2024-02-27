@@ -1,5 +1,5 @@
 @font-face {font-family: "Century Gothic";
-    src: url("GOTHIC.woff2") format("woff2");}
+    src: url("../../assets/GOTHIC.woff2") format("woff2");}
 
 html{font-family: "Century Gothic";
     background-color: #BECC41;
