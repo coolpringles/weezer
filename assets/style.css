@@ -1,24 +1,125 @@
-@font-face {font-family: "Century Gothic";
-    src: url("GOTHIC.woff2") format("woff2");}
+/* universal stuff */
+@font-face {
+    font-family: "Century Gothic";
+    src: url("GOTHIC.woff2") format("woff2");
+}
 
-html{font-family: "Century Gothic";
+h1{
+    font-size: 60px;
+}
+
+html{
+    font-family: "Century Gothic";
+}
+
+txt{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+ul{
+    font-size: 12px;
+}
+
+#weezerlogo{
+    position: relative;
+    top: -40px;
+}
+
+/* index */
+#indexpage{
+    color: #c5c5c5;
     background-color: #272727;
-    color: #c5c5c5}
+    max-width: fit-content;
+}
 
-body{max-width: min-content;}
-
-#weezerlogo{position: relative;
-    top: -40px;}
-#subtitle{position: relative;
+#indexpage #subtitle{
+    position: relative;
     top: -90px;
-    left: 10px;}
-#tracks{position: relative;
-    top: -70px;}
+    left: 10px;
+}
 
-h1{font-size: 60px;}
+#indexpage #albums{
+    position: relative;
+    top: -70px;
+}
 
-a:link{color: #c5c5c5;}
-a:visited{color: #9c9c9c}
+#indexpage a:link{
+    color: #c5c5c5;
+}
 
-txt{font-weight: bold; font-size: 18px;}
-ul{list-style-type: none; font-size: 12px;}
+#indexpage a:visited{
+    color: #9c9c9c
+}
+
+#indexpage ul{
+    list-style-type: none;
+}
+
+/* blue album*/
+#blue{
+    background-color: #189BCC;
+}
+
+#blue #tracks{
+    position: relative;
+    top: -50px;
+}
+
+#blue ul{
+    list-style-type: number;
+}
+
+#blue .weezer{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+/* pinkerton */
+#pinkerton{
+    background-color: #131507;
+    background-image: url(pinkerton/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#pinkerton ul{
+    list-style-type: none;
+}
+
+#pinkerton .weezer{
+    position: fixed;
+    top: 0px;
+    left: 20px;
+}
+
+#pinkerton .pinkerton{
+    position:fixed;
+    top: 10px;
+    right: 20px
+}
+
+/* green */
+#green{
+    background-color: #BECC41;
+    text-align: center;
+    color: white
+}
+
+#green #tracks{
+    position: relative;
+    top: -50px;
+    left: -16px;
+}
+
+#green ul{
+    list-style: inside;
+    list-style-type: number;
+}
+
+#green .weezer{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
