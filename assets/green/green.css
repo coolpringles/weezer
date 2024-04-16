@@ -1,0 +1,22 @@
+#green{
+    background-color: #BECC41;
+    text-align: center;
+    color: white
+}
+
+#green #tracks{
+    position: relative;
+    top: -50px;
+    left: -16px;
+}
+
+#green ul{
+    list-style: inside;
+    list-style-type: number;
+}
+
+#green .weezer{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}

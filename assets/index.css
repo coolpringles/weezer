@@ -1,0 +1,28 @@
+#indexpage{
+    color: #c5c5c5;
+    background-color: #272727;
+    max-width: fit-content;
+}
+
+#indexpage #subtitle{
+    position: relative;
+    top: -90px;
+    left: 10px;
+}
+
+#indexpage #albums{
+    position: relative;
+    top: -70px;
+}
+
+#indexpage a:link{
+    color: #c5c5c5;
+}
+
+#indexpage a:visited{
+    color: #9c9c9c
+}
+
+#indexpage ul{
+    list-style-type: none;
+}

@@ -1,0 +1,18 @@
+#blue{
+    background-color: #189BCC;
+}
+
+#blue #tracks{
+    position: relative;
+    top: -50px;
+}
+
+#blue ul{
+    list-style-type: number;
+}
+
+#blue .weezer{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
